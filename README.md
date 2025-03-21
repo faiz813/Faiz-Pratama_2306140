@@ -32,7 +32,10 @@ Kelebihan: Menjamin jalur dengan biaya terendah, cocok untuk graph berbobot.
 
 Kekurangan: Bisa lambat dan membutuhkan banyak memori.
 
+
+
 Penjelasan Informed Search - Greedy Search dalam AI
+
 1. Apa itu Informed Search?
 Informed Search adalah metode pencarian dalam Artificial Intelligence (AI) yang menggunakan informasi tambahan (heuristic) untuk membimbing pencarian menuju solusi dengan lebih efisien. Berbeda dengan uninformed search (seperti BFS dan DFS) yang hanya menggunakan eksplorasi buta, informed search menggunakan nilai heuristik untuk memperkirakan jarak atau biaya dari suatu simpul ke tujuan.
 
