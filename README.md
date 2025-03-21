@@ -31,3 +31,19 @@ UCS mencari jalur dengan biaya paling rendah menggunakan prioritas berdasarkan b
 Kelebihan: Menjamin jalur dengan biaya terendah, cocok untuk graph berbobot.
 
 Kekurangan: Bisa lambat dan membutuhkan banyak memori.
+
+Penjelasan Informed Search - Greedy Search dalam AI
+1. Apa itu Informed Search?
+Informed Search adalah metode pencarian dalam Artificial Intelligence (AI) yang menggunakan informasi tambahan (heuristic) untuk membimbing pencarian menuju solusi dengan lebih efisien. Berbeda dengan uninformed search (seperti BFS dan DFS) yang hanya menggunakan eksplorasi buta, informed search menggunakan nilai heuristik untuk memperkirakan jarak atau biaya dari suatu simpul ke tujuan.
+
+Contoh algoritma informed search:
+Greedy Best-First Search (Greedy Search)
+A Search (A-Star Search)*
+
+2. Apa itu Greedy Best-First Search (Greedy Search)?
+Greedy Search adalah algoritma pencarian yang memilih langkah berdasarkan nilai heuristik terkecil pada setiap langkahnya, tanpa mempertimbangkan biaya dari titik awal.
+
+Karakteristik utama Greedy Search:
+- Menggunakan fungsi heuristik h(n) untuk memperkirakan jarak dari simpul saat ini ke simpul tujuan.
+- Selalu memilih simpul dengan nilai heuristik terkecil di antrian.
+- Cepat tetapi tidak selalu optimal (karena tidak mempertimbangkan total biaya perjalanan).
