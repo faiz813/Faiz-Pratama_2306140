@@ -1,0 +1,6 @@
+?- anak_ayah(X).
+?- dapat_hadiah(X, buku).
+?- dapat_hadiah(X, mainan).
+?- dapat_hadiah(pina, buku).
+?- tidak_dapat_hadiah(riko).
+
